@@ -1,6 +1,6 @@
 import { join } from 'lodash';
 
-function createSpan() {
+function createSpan(){
     const element = document.createElement('span');
     element.innerHTML = join(['Hello', 'DllPlugin'], ' , ');
     return element;
